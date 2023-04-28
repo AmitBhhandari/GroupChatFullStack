@@ -1,0 +1,33 @@
+.main-groupparticipants{
+    position: absolute;
+
+    background-color: rgb(123, 134, 120);
+    left: 35%;
+    top:9vh;
+    height: 40vh;
+    width: 20vw;
+    overflow: scroll;
+    z-index: 200;
+}
+.main-groupparticipants ul{
+    position: relative;
+    left:5%;
+    display: flex;
+    flex-direction: column;
+}
+.main-groupparticipants ul h3{
+    position: relative;
+    right: 6%;
+    text-align: center;
+}
+
+
+.main-groupparticipants button{
+    position: absolute;
+    background-color: red;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 10px;
+    top:0%;
+    left: 81%;
+}

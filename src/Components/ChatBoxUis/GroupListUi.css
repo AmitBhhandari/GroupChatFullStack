@@ -1,0 +1,8 @@
+.group-remove_button{
+    position: relative !important;
+    padding: 0 !important;
+    width: 3vw !important;
+    left:8vw !important;
+    bottom: 6vh !important;
+    background-color: rgb(240, 74, 33) !important;
+}

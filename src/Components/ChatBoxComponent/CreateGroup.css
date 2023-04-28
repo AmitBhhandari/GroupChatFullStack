@@ -1,0 +1,37 @@
+.main-creategroup{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 21vw;
+    z-index: 100;
+    background-color: rgb(150, 241, 234);
+    border-radius: 10px;
+    padding: 30px;
+    color: rgb(20, 20, 20);
+}
+.main-creategroup form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    align-items: center;
+    font-weight: 600;
+}
+.main-creategroup form input{
+    margin: 10px;
+    font-size: 1.2rem;
+}
+.main-creategroup form input[type="submit"]{
+    background-color: aqua;
+    border-radius: 10px;
+    background-color: rgb(240, 243, 240);
+    font-weight: bolder;
+    padding: 8px;
+}
+
+.main-creategroup button{
+    background-color: rgb(235, 43, 43);
+    padding: 0 2px;
+    position: absolute;
+    left: 75%;
+}
